@@ -1,0 +1,61 @@
+
+body{
+    margin-top: 10%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.A{
+        border: 50px solid transparent;
+        border-radius: 100%;
+        background: linear-gradient(rgb(61, 230, 61),rgb(252, 252, 53));
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0px 0px 55px 5px  #ff3381 ;
+}
+.A:hover{
+    transform: rotate(360deg);
+}
+.B{
+    border: 50px solid transparent;
+    border-radius: 100%;
+    background: linear-gradient(rgb(92, 17, 109),rgb(210, 115, 209));
+    transition: transform 0.3s ease-in-out;
+}
+.B:hover{
+    transform: rotate(360deg);
+}
+.C{
+    border: 50px solid transparent;
+    border-radius: 100%;
+    /* background-color: green; */
+    background: linear-gradient(rgb(59, 37, 170),rgb(80, 177, 225));
+    transition: transform 0.3s ease-in-out;
+}
+.C:hover{
+    transform: rotate(360deg);
+}
+
+.D{
+    border: 50px solid transparent;
+    border-radius: 100%;
+    background: linear-gradient(rgb(230, 61, 109),rgb(252, 99, 53));
+    transition: transform 0.3s ease-in-out;
+}
+.D:hover{
+    transform: rotate(360deg);
+}
+.E{
+    border: 25px solid transparent;
+    border-radius: 100%;
+    background-color: black;
+    border-top-color: lawngreen;
+    border-bottom-color: red; 
+    border-left-color: blue;
+    border-right-color: rgb(6, 58, 6);
+    transition: transform 0.3s ease-in-out;
+    
+}
+.E:hover{
+    transform: rotate(360deg);
+}
